@@ -1,0 +1,14 @@
+{
+  "name": "NAME-OF-YOUR-TOKEN",  //MAKE SURE TO UPDATE THIS
+  "version": "1.0.0",  //MAKE SURE TO UPDATE THIS
+  "description": "ENTER-A-COMPLETE-DESCRIPTION-OF-YOUR-TOKEN-HERE-BE-AS-DETAILED-AS-POSSIBLE",  //MAKE SURE TO UPDATE THIS
+  "main": "mpl_metadata.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node mpl_metadata.js"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.1.2",  //MAKE SURE TO UPDATE THE VERSION ACCORDINGLY IF ERRORS OCCUR
+    "@metaplex/js": "^4.12.0"  //MAKE SURE TO UPDATE THE VERSION ACCORDINGLY IF ERRORS OCCUR
+  }
+}
